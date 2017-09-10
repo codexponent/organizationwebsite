@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectors</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="selectors.css">
+</head>
+<body>
+	<a href="../index.html"><img src="back.png" alt="back" /></a>
+	<article id="selectors">
+		<h3>Selectors</h3>
+		<header>
+			<p class="highlight">
+				CSS Selectors
+			</p>
+		</header>
+		<section id="type_selector">
+		<h3>Type Selector</h3>
+			<p class="highlight">
+				Any HTML element can be a type selector. This is global as any CSS applied to a particular element would be applied to all occurances of that element. This is known as a <strong>type</strong> selector.
+			</p>
+		</section>
+		<section id="class_selector">
+		<h3>Class Selector</h3>
+			<p class="highlight">
+				Unlike an id, a class can be applied to many occurances of a particular element. We say the element belongs to that class. This is known as a <strong>class</strong> selector. For example, the class highlight has been used several times and a selector would select all of the elements with a class value, highlight allowing for a common set of CSS rules to be applied to the whole selection of elements.
+			</p>
+		</section>
+		<section id="id_selector">
+		<h3>Id Selector</h3>
+			<p class="highlight">
+				For example, the section id="combine_selector" element can be uniquely selected as it's id has a uniques value, combine_selector. This is known as an <strong>id</strong> selector. This unique value, combine_selector can be used as an address in a hyperlink, or a selctor for CSS styling or applying Javascript behaviour.
+			</p>
+		</section>
+		<section id="psuedo_selector">
+		<h3>Psuedo Selector</h3>
+			<p class="highlight">
+				Pseudo selectors can be used with type, id or class selectors; .highlight:hover is an example of a <strong>pseudo</strong>-class selector.
+			</p>
+		</section>
+		<section id="combine_selector">
+		<h3>Combine Selector</h3>
+			<p class="highlight">
+				Selectors can also be combined, for example
+				footer > h1 selects only the h1 element that is the child of the footer element.<br>
+				section.highlight > h1 selects only the h1 element that is the child of the section element that are of class type highlight.<br>
+				Likewise: div, h1 { color: red; } (this selects all div and h1 elements, whereas div h1 { color: red; } (without the comma) selects only the h1 within a div element.) This is known as <strong>combination</strong> selector based on the DOM relationship.
+			</p>
+		</section>
+		<section>
+		<h3>Example Paragraph</h3>
+			<p class="highlight" id="intro">This is example paragraph.</p>
+		</section>
+		<footer>
+			<p>
+				TODO: Page footer
+			</p>
+		</footer>
+	</article>
+	<a href="../index.html"><img src="back.png" alt="back" /></a>
+</body>
+</html>

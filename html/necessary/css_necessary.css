@@ -1,0 +1,88 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu|Happy+Monkey);
+html { font-size: 16px; line-height: 1.625em; }
+body { font-family: "Ubuntu"; font-weight: 400; background: white;  color: black; }
+h1, h2, h3, h4, h5, h6 { 
+	line-height: 1.16em; padding-top: 0.27em; padding-bottom: 0.27em; }
+h1 { font-size: 68px; }
+h2 { font-size: 42px; }
+h3 { font-size: 30px; }
+h4 { font-size: 26px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #444444; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; }
+p { margin-bottom: 13px; }
+q, blockquote { quotes: none; }
+a { color: #d04526; text-decoration: none; outline: 0; line-height: inherit; }
+a:hover { color: #c03d20; }
+
+
+.row { width: 100%; max-width: 980px; min-width: 320px; 
+		margin: 0 auto; padding-left: 20px; padding-right: 20px; min-height: 3em; }
+
+.columns:first-child { margin-left: 0; }
+.columns { margin-left: 2.12766%; float: left; min-height: 1px; }
+
+/* Column Classes */
+.row .one.columns 	{ width: 6.38298%; }
+.row .two.columns 	{ width: 14.89362%; }
+.row .three.columns { width: 23.40426%; }
+.row .four.columns 	{ width: 31.91489%; }
+.row .five.columns 	{ width: 40.42553%; }
+.row .six.columns 	{ width: 48.93617%; }
+.row .seven.columns { width: 57.44681%; }
+.row .eight.columns { width: 65.95745%; }
+.row .nine.columns 	{ width: 74.46809%; }
+.row .ten.columns 	{ width: 82.97872%; }
+.row .eleven.columns { width: 91.48936%; }
+.row .twelve.columns { width: 100%; }
+
+
+/* General */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, 
+nav, section, summary { display: block; }
+	
+a img { border: none; }
+
+img, object, embed { max-width: 100%; height: auto; }
+
+/* Lists */
+ul, ol { margin-bottom: 0.273em; list-style: none; }
+ul { list-style: none outside; }
+ol { list-style: decimal; margin-left: 30px; }
+
+ul ul { margin: 4px 0 5px 25px; }
+ol ol { margin: 4px 0 5px 30px; }
+
+li { padding-bottom: 0.273em; }
+
+ul.square, ul.circle, ul.disc { margin-left: 25px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+
+/* Tables */
+table { display: table; background-color: white; border-collapse: collapse;
+	 border-spacing: 0; margin-bottom: 20px; width: 100%; border: 1px solid #e5e5e5; 
+	 border-collapse: collapse; border-spacing: 0; }
+table caption { text-align: center; font-size: 30px; padding: .75em; }
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+table thead th, table tbody td, table tr td { display: table-cell; padding: 10px; 
+	vertical-align: top; text-align: left; border-top: 1px solid #e5e5e5; }
+table tr td, table tbody tr td { font-size: 16px; }
+table tr td:first-child { font-weight: bold; }
+table thead { background-color: #3085d6; color: #fff; }
+table thead tr th { font-size: 16px; font-weight: bold; vertical-align: bottom; }
+
+/* Forms */
+form { margin: 0 0 18px; }
+form label { display: block; font-size: 16px; font-size: 1rem; line-height: 1.625em; 
+	cursor: pointer; margin-bottom: 9px; }
+form label.inline { display: inline-block; padding-right: 20px; }
+form dt { margin: 0; }
+form textarea { height: 150px; }
+form ul, form ul li { margin-left: 0; list-style-type: none; }
+form fieldset { border-style: solid; border-width: 0.0625em; padding: 1.5625em; 
+	border-color: #d8d8d8; margin: 18px 0; }
+form fieldset legend { padding: 5px 10px; }

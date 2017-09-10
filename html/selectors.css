@@ -1,0 +1,38 @@
+section {
+	 border-top: 1px solid gray;
+}
+footer {
+	 color: gray;
+	 border-top: 1px solid gray;
+}
+footer > h1 {
+	color: gray;
+}
+.highlight {
+	 color: #660000;
+	 background-color: #DDD;
+	 font-size: 12px;
+	 padding: 1em;
+}
+.highlight:hover{
+	background-color: gray;
+}
+#selectors {
+	 padding: 1em;
+	 border: 1px solid gray;
+	 border-radius: 10px;
+}
+p {
+	color: red;
+}
+.highlight {
+	color: green;
+}
+
+#intro{
+	color: blue;
+}
+#intro:hover{
+	background-color: #E0ECF8;
+}
+

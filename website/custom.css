@@ -1,0 +1,276 @@
+@import 'bower_components/gumby-parallax/_parallax.scss';
+
+
+*{	border-radius: 0px !important;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+#messageIcon{
+	width:100%;
+}
+
+#finalFixer{
+	margin-bottom: 16%;
+}
+
+#nav3{
+	background-color: black !important;
+}
+
+#backgroundImage{
+	width: 100%;
+	height: 100%;
+}
+
+#parallexeffect1 {
+	margin-top: -20px;
+	background-image: url("img/team.jpg");
+	background-repeat:no-repeat;
+    background-position:center;
+	width: 100%;
+	height: 800px;
+
+}
+
+#parallexeffect8 {
+	margin-top: -22px;
+	background-image: url("html/img2.jpg");
+	background-repeat: no-repeat;
+	background-attachment:scroll;
+	background-position:center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	text-align:center;
+	color:#ffffff;
+	width: 100%;
+	height: 800px;
+
+}
+
+#header1{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300%;
+	color: #F2635F;
+	line-height: 150%;
+}
+
+#header2{
+	text-align: justify;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	color: #F2635F;
+	line-height: 150%;
+}
+
+#inDesign1{
+	font-family: 'Great Vibes', cursive;
+	font-size: 950%;
+	color: #F2635F;
+	line-height: 90%;
+}
+
+#inDesign2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 250%;
+	line-height: 90%;
+	color: #F2635F;
+}
+
+h4.example3 {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    background: white;
+}
+	
+h4.example3.onscreen {
+    background: #004C70;
+}
+	
+h4.example3.offbottom {
+    background: #F2635F;
+}
+	
+h4.example3.offtop {
+    background: #F2635F;
+}
+
+#content1{
+	background-color: #5996cd;
+	font-family: 'PT Sans', sans-serif;
+	height: auto;
+	width: 100%;
+	font-size: 1.5em;
+	line-height: 1.25em;
+	color: black;
+	text-align: justify;
+}
+
+.marginFixer1{
+	margin-top: 50px;
+}
+
+#marginFixer2{
+	margin-bottom: 50px;
+}
+
+#marginFixer3{
+	margin-left: 20%;
+}
+
+.marginFixer5{
+	margin-left: 29%;
+}
+
+.marginFixer4{
+	margin-left: 22%;
+}
+
+.socialContainer{
+	margin-left: 34%;
+}
+
+#parallexeffect2{
+	margin-top: 50px;
+	background-image: url("img/coder.jpg");
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 300px;
+	
+}
+
+.footer {
+	height: auto;
+	background-color: #212121;
+}
+
+.footer-class {
+	font-family: 'PT Sans', sans-serif;
+	color:white;
+}
+
+.base {
+	height: auto;
+	background-color:#EF4036;
+}
+.base h6 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	color:white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+#workPhoto{
+	margin-left: auto;
+	margin-right: auto;
+	height: 60%;
+	width: 60%;
+}
+
+#parallexeffect3 {
+	margin-top: -20px;
+	background-image: url("img/workcontent1.jpg");
+	background-repeat:no-repeat;
+    background-position:center;
+	width: 100%;
+	height: 800px;
+	
+}
+
+#textDesign{
+	font-family: 'Great Vibes', cursive;
+	font-size: 850%;
+}
+
+#content2{
+	background-color: #212121;
+	font-family: 'Raleway', sans-serif;
+	height: auto;
+	width: 100%;
+	font-size: 1.25em;
+	line-height: 2em;
+	color: white;
+}
+
+.metrostyleimages{
+	width: 100%;
+	height: 100%;
+	margin-top: -12px;
+}
+
+#parallexeffect4 {
+	margin-top: -20px;
+	background-image: url("img/handshaking.jpg");
+	background-repeat:no-repeat;
+    background-position:center;
+	width: 100%;
+	height: 800px;
+	
+}
+
+#parallexeffect5 {
+	margin-top: -20px;
+	background-image: url("img/community.jpg");
+	background-repeat:no-repeat;
+    background-position:center;
+	width: 100%;
+	height: 800px;
+	
+}
+
+#parallexeffect6 {
+	margin-top: -20px;
+	background-image: url("img/aboutus.jpg");
+	background-repeat:no-repeat;
+    background-position:center;
+	width: 100%;
+	height: 800px;	
+}
+
+#content5{
+	background-color: #5996cd;
+	font-family: 'PT Sans', sans-serif;
+	height: auto;
+	width: 100%;
+	font-size: 1.5em;
+	line-height: 1.25em;
+	color: black;
+	text-align: justify;
+}
+
+#textDesign5{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: black;
+}
+
+.textDesign2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+
+.paddingFixer1{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+
+td{
+	color: black;
+}
+

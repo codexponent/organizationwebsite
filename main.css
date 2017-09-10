@@ -1,0 +1,77 @@
+@import 'bower_components/gumby-parallax/_parallax.scss';
+
+*{	border-radius: 0px !important;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+#messageIcon{
+	width:100%;
+}
+
+#finalFixer{
+	margin-bottom:15%;
+}
+
+#nav3{
+	background-color: black !important;
+}
+
+#backgroundImage{
+	width: 100%;
+	height: 100%;
+}
+
+#parallexeffect8 {
+	margin-top: -32px;
+	background-image: url("img/img2.jpg");
+	background-repeat:no-repeat;
+    background-position:center;
+	width: 100%;
+	height: 900px;
+	text-align:center;
+	color:#fff
+
+}
+
+#inDesign1{
+	font-family: 'Great Vibes', cursive;
+	font-size: 950%;
+	color: #F2635F;
+	line-height: 90%;
+}
+
+.inDesign2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 250%;
+	line-height: 90%;
+	color: #F2635F;
+}
+
+.footer {
+	height: auto;
+	background-color: #212121;
+}
+
+.footer-class {
+	font-family: 'PT Sans', sans-serif;
+	color:white;
+}
+
+.base {
+	height: auto;
+	background-color:#EF4036;
+}
+.base h6 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	color:white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
